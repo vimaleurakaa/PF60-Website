@@ -198,3 +198,160 @@
     }
   }
 }
+
+//Benefits Section
+
+#sponcorsPartner {
+  position: relative;
+
+  & h3 {
+    color: $primary-blue;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+
+    & .swiper-slide {
+      text-align: center;
+      & img {
+        width: 100px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+#benefitsContainer {
+  background: $primary-yellow url("../images/Benefits/Benifits_Overlay_Bg.jpg");
+  // background-size: cover;
+  background-position: center;
+  padding: 3rem 0rem;
+  position: relative;
+
+  .row > * {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  & .card-body {
+    .card-title {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .card-text {
+      text-align: justify;
+      color: #726d6d;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+//Impact Section
+
+#impactContainer {
+  background: $primary-blue url("../images/Impact/Impact_Bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0rem;
+  position: relative;
+
+  & .card-body {
+    text-align: center;
+
+    .card-title {
+      color: $primary-blue;
+      font-size: 2.2rem;
+      font-weight: 700;
+
+      @media (max-width: 767.98px) {
+        font-size: 1.8rem;
+      }
+    }
+
+    .card-text {
+      color: $custom-light;
+      font-size: 1.1rem;
+    }
+  }
+
+  & .sponsors-partners {
+    margin-top: 2rem;
+    text-align: center;
+
+    & .sponsor-title {
+      color: $custom-light;
+      text-transform: uppercase;
+      padding: 0.8rem;
+      border: 2px solid #fff;
+      border-radius: 15px 15px 0px 0px;
+      display: inline-block;
+      margin-bottom: -5px;
+    }
+
+    & .sponsors-wraper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 8px;
+      max-width: 960px;
+      padding: 1rem;
+      margin: auto;
+
+      & img {
+        width: 150px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  & .impact-wraper {
+    @media (max-width: 767px) {
+      & > *:last-child {
+        margin: 1.5rem auto 0rem;
+      }
+    }
+  }
+
+  & .btn {
+    margin-top: 2rem;
+    @include btnPrimary($custom-light, $primary-blue);
+
+    &:hover {
+      @include btnPrimaryHover($primary-blue, $custom-light);
+    }
+  }
+}
+
+// Promise Section
+
+#promise {
+  padding: 3rem 0rem;
+  position: relative;
+  width: 100%;
+  background-color: $primary-darkblue;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    opacity: 0.1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: $primary-darkblue
+      url("../images/Promise/play-for-60-promise.webp");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  & p {
+    color: $custom-light;
+  }
+}
