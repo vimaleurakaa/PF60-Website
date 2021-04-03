@@ -1,0 +1,15 @@
+{
+  "name": "play-for-60",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+@import "./base";
+@import "./variables";
+@import "./mixins";
+@import "./global";
+@import "./banner";
+@import "./home";
+@import "./footer";
+
+//NavBar
+nav {
+  background-color: #fff;
+
+  & .nav-item {
+    font-size: 0.8rem;
+  }
+
+  & .navbar-brand img {
+    width: 100px;
+  }
+}
