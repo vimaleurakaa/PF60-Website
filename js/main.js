@@ -1,8 +1,3 @@
-const year = document.getElementById("year");
-//get year
-const currentYear = new Date().getFullYear();
-year.innerText = currentYear;
-
 var swiper = new Swiper(".swiper-container", {
   slidesPerView: 9,
   spaceBetween: 30,

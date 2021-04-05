@@ -4,6 +4,7 @@
 @import "./global";
 @import "./banner";
 @import "./home";
+@import "./about";
 @import "./footer";
 
 //NavBar
@@ -11,7 +12,8 @@ nav {
   background-color: #fff;
 
   & .nav-item {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
   }
 
   & .navbar-brand img {

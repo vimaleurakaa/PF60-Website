@@ -49,9 +49,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item text-dark">
-              <a class="nav-link active" aria-current="page" href="#"
-                >About Us</a
+              <a
+                class="nav-link text-danger fw-bold"
+                aria-current="page"
+                href="/"
+                >Home</a
               >
+            </li>
+            <li class="nav-item text-dark">
+              <a class="nav-link" aria-current="page" href="#about">About Us</a>
             </li>
             <li class="nav-item text-dark">
               <a class="nav-link" href="#">Partner With Us</a>
@@ -220,7 +226,7 @@
       <!-- END Partners -->
 
       <!-- BEGIN ABOUT SECTION 3  -->
-      <section class="section-3">
+      <section class="section-3" id="about">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -240,12 +246,13 @@
               </div>
             </div>
             <div class="section-3-cta">
-              <button
+              <a
                 type="button"
                 class="btn custom-btn rounded-pill custom-btn-size"
+                href="./about.html"
               >
                 ABOUT PLAY FOR 60
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -861,5 +868,8 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/activity.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+      document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
   </body>
 </html>
