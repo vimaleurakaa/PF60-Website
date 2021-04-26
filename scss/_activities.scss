@@ -58,7 +58,7 @@
       cursor: pointer;
       background-color: $custom-light;
       line-height: 2;
-      padding: 0.6rem 2rem;
+      padding: 0.6rem 4rem 0.6rem 2rem;
       margin-bottom: 1rem;
       list-style: none;
       box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
@@ -106,6 +106,7 @@
   .act-content-container {
     & ul {
       & li {
+        padding: 0.6rem 3rem 0.6rem 2rem;
         &::before {
           top: 20%;
           right: 6%;

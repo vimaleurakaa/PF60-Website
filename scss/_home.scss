@@ -5,6 +5,15 @@
   background-size: cover;
   background-position: center;
 
+  & .row {
+    color: #fff;
+    @media (max-width: 768px) {
+      & :nth-child(2) {
+        order: 2;
+      }
+    }
+  }
+
   & .ground-container {
     margin: 2rem auto;
     width: 90%;

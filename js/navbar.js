@@ -3,9 +3,12 @@ const menu = document.getElementById("navpanel");
 menu.innerHTML = `<!--BEGIN NavBar -->
 <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="/"
-      ><img src="./images/logo.png" alt="logo"
-    /></a>
+    <a class="navbar-brand" href="/">
+      <img src="./images/logo.png" class="logo1" alt="logo"/>
+      <img src="./images/Logo2.jpg" class="logo2" alt="DHA"/>
+      <img src="./images/Logo3.jpg" class="logo3" alt="DSC"/>
+      <img src="./images/Logo4.jpg" class="logo4" alt="CDA"/>
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -33,6 +36,11 @@ menu.innerHTML = `<!--BEGIN NavBar -->
             >Activities</a
           >
         </li>
+        <li class="nav-item text-dark">
+          <a class="nav-link" href="/about.html#FAQ"
+            >FAQ’s</a
+          >
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/challenges.html">Challenges</a>
         </li>
@@ -47,11 +55,19 @@ menu.innerHTML = `<!--BEGIN NavBar -->
 <!-- Banner BEGIN -->`;
 
 const path = window.location.pathname;
+const urlHash = window.location.hash;
 const navLinks = document.querySelectorAll(".nav-link");
+let fullPath = path;
+
+if (urlHash != "") {
+  fullPath = path + urlHash;
+} else {
+  fullPath = path;
+}
 
 navLinks.forEach((item) => {
   console.log(item.attributes.href.nodeValue);
-  if (item.attributes.href.nodeValue === path) {
+  if (item.attributes.href.nodeValue === fullPath) {
     item.classList.add("text-danger", "fw-bold");
   }
 });

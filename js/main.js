@@ -33,3 +33,27 @@ var swiper = new Swiper(".swiper-container", {
   },
   mousewheel: true,
 });
+
+var impactTopPos = $("#impactContainer").offset().top;
+
+$(window).on("scroll", function () {
+  if ($(window).scrollTop() > impactTopPos) {
+    $(window).off("scroll");
+    $("#impactContainer .card-title").each(function () {
+      $(this)
+        .prop("Counter", 0)
+        .animate(
+          {
+            Counter: $(this).data("value"),
+          },
+          {
+            duration: 1500,
+            easing: "swing",
+            step: function (now) {
+              $(this).text(Math.ceil(now) + "+");
+            },
+          }
+        );
+    });
+  }
+});
