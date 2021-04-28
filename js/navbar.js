@@ -23,9 +23,6 @@ menu.innerHTML = `<!--BEGIN NavBar -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item text-dark">
-          <a class="nav-link" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item text-dark">
           <a class="nav-link" aria-current="page" href="/about.html">About Us</a>
         </li>
         <li class="nav-item text-dark">
@@ -42,9 +39,11 @@ menu.innerHTML = `<!--BEGIN NavBar -->
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/challenges.html">Challenges</a>
+          <a class="nav-link" href="/gallery.html">Gallery</a>
         </li>
-       
+        <li class="nav-item text-dark">
+        <a class="nav-link" aria-current="page" href="/blog.html">Blog</a>
+      </li>
         <li class="nav-item text-dark">
           <a class="nav-link" href="/contact.html">Contact Us</a>
         </li>
@@ -66,7 +65,7 @@ if (urlHash != "") {
 }
 
 navLinks.forEach((item) => {
-  console.log(item.attributes.href.nodeValue);
+  // console.log(item.attributes.href.nodeValue);
   if (item.attributes.href.nodeValue === fullPath) {
     item.classList.add("text-danger", "fw-bold");
   }

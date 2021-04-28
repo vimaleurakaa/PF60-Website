@@ -1,0 +1,57 @@
+//blog page styles
+
+#blog-container {
+  max-width: 1140px;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & .card-body {
+    padding: 1.5rem 1.5rem;
+    color: #000;
+
+    & .card-text {
+      color: #726d6d;
+      text-decoration: none;
+    }
+
+    & .read-more {
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+//inner blog page style
+
+.inner-blog-section {
+  background: $custom-light url("../images/section_5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#innerBlogContainer {
+  max-width: 960px;
+  padding-top: 8rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  & .blog-img {
+    margin-bottom: 2rem;
+    & img {
+      width: 100%;
+    }
+  }
+
+  & .blog-content {
+    padding-bottom: 3rem;
+
+    & h3 {
+      font-size: 1.4rem;
+    }
+  }
+}

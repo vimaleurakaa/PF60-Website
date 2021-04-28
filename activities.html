@@ -36,7 +36,7 @@
       <div class="row">
         <div class="col-12">
           <div class="title py-4">
-            <h2>Activities</h2>
+            <h1>Activities</h1>
           </div>
         </div>
       </div>
@@ -44,17 +44,57 @@
       <div id="dataPane" class="container"></div>
 
       <div class="section-5-cta">
-        <a href="https://forms.gle/G95UqipAk1QXk8bs8" target="_blank" type="button"
-          class="btn custom-btn rounded-pill custom-btn-size">
+        <button class="btn custom-btn rounded-pill custom-btn-size" data-bs-toggle="modal"
+          data-bs-target="#registerModal">
           Register Now
-        </a>
+        </button>
       </div>
     </div>
   </section>
 
+  <!-- Registration form popup  -->
+
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">Registration Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="popupRegisterBody">
+          <form
+            action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSffr7RsuOuMY70Auob83w-HDqaecXaI0G_mVEYKuc2q76Onxw/formResponse"
+            target="registerTarget" method="POST" id="registerForm" onsubmit="return onRegisterFormSubmit()">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="Name" placeholder="Enter your name" name="entry.2092238618"
+                required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="Email" placeholder="Enter your email" name="entry.1556369182"
+                required>
+            </div>
+            <div class="form-group">
+              <label for="PhoneNumber">Contact Number</label>
+              <input type="number" class="form-control" id="PhoneNumber" placeholder="Enter your contact number"
+                name="entry.348935263" required>
+            </div>
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </form>
+        </div>
+        <iframe name="registerTarget" src="#registerForm" height="300" style="display: none;"></iframe>
+      </div>
+    </div>
+  </div>
+
   <div id="footer"></div>
 
   <!-- ENDOF ACTIVITIES SECTION 5  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="./js/register-form.js"></script>
   <script src="./js/data.js"></script>
   <script src="./js/actvities-page.js"></script>
   <script src="./js/navbar.js"></script>

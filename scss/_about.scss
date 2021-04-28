@@ -12,7 +12,7 @@
 
 .about_pf60 {
   background: $green-text url("../images/section_3.png");
-  padding: 6rem 1rem;
+  padding: 4rem 0rem;
   background-size: cover;
   background-position: center;
 
@@ -99,6 +99,10 @@
   padding: 3rem 0rem;
   background-size: cover;
   background-position: center;
+}
+
+.FAQ-container {
+  max-width: 720px;
 }
 
 .accordion-item {

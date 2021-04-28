@@ -6,6 +6,9 @@
 @import "./home";
 @import "./about";
 @import "./activities";
+@import "./gallery";
+@import "./contact";
+@import "./blog";
 @import "./footer";
 
 //NavBar
@@ -22,6 +25,16 @@ nav {
     &.navbar-expand-lg .navbar-collapse {
       flex-basis: 100% !important;
     }
+  }
+
+  & .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  & .navbar-toggler {
+    margin-top: 5px;
   }
 
   & .nav-item {
