@@ -6,19 +6,69 @@
 @import "./home";
 @import "./about";
 @import "./activities";
+@import "./gallery";
+@import "./contact";
+@import "./blog";
 @import "./footer";
 
 //NavBar
 nav {
   background-color: #fff;
 
+  & .container {
+    @media (max-width: 768px) {
+      justify-content: flex-end !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    &.navbar-expand-lg .navbar-collapse {
+      flex-basis: 100% !important;
+    }
+  }
+
+  & .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  & .navbar-toggler {
+    margin-top: 5px;
+  }
+
   & .nav-item {
     font-size: 0.9rem;
     margin: 0 0.5rem;
   }
 
+  & .navbar-brand {
+    @media (max-width: 768px) {
+      overflow: hidden;
+      margin-right: 0rem;
+    }
+  }
+
   & .navbar-brand img {
-    width: 100px;
+    &.logo1 {
+      width: 25%;
+    }
+
+    &.logo2 {
+      width: 25%;
+    }
+
+    &.logo3 {
+      width: 10%;
+    }
+
+    &.logo4 {
+      width: 25%;
+    }
+  }
+
+  & .navbar-brand img:not(:last-child) {
+    margin-right: 0.5rem;
   }
 }
 

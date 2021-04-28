@@ -1,763 +1,643 @@
 const data = [
   {
     img: "./images/activities/icon_000.svg",
-    title: "Athletics CLUBS",
+    title: "Athletics ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Ultimate Athletics",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "AIS",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Mini Athletics",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Desert Cubs",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon2-01.svg",
-    title: "GOLF CLUBS",
+    title: "GOLF ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Claude Harmon School of Golf",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Peter Cowen Junior Golf",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Dubai Hills Gold Club",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "The Els Club",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Montgomerie Golf Academy",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_10-01.svg",
-    title: "CHESS CLUBS",
+    title: "CHESS ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "DubaiChess",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Chess Coaching Dubai",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Chess Knowledge",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "International Chess center",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_11-01.svg",
-    title: "Boxing CLUBS",
+    title: "Boxing ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Round 10 Boxing Club",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Fit boys",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "The Champion Club",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Underdogboxn",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "9Round",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_12-01.svg",
-    title: "BASKETBALL CLUBS",
+    title: "BASKETBALL ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "JAM",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "HoopMountain",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "MPAC",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "BallAboveAll",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Beyond Basketball",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_13-01.svg",
-    title: "BADMINTON CLUBS",
+    title: "BADMINTON ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "PSA",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Engage Sports Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Zen Star Sports",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Adapt Sports UAE",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Desert Cubs",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_15-01.svg",
-    title: "VOLLEY BALL CLUBS",
+    title: "VOLLEY BALL ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Esperia Volleyball",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Yes Volleyball",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Elite Volleyball Academy",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_16-01.svg",
-    title: "TENNIS CLUBS",
+    title: "TENNIS ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Rackets Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Archibald Tennis",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Ace Sports Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Borela Tennis Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Future Pro Tennis",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_17-01.svg",
-    title: "TAEKWANDO CLUBS",
+    title: "TAEKWANDO ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Phoenix Black Belt Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "WTTU Moo Duk Taekwondo",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Universal Martial Arts Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "GOLDEN FIST INTERNATIONAL ACADEMY",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "The Warrior Academy",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_18-01.svg",
-    title: "TABLE TENNIS CLUBS",
+    title: "TABLE TENNIS ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Al Wasl Table Tennis Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Deep Sports",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Dubai Table Tennis Academy / Shabab Al Ahli",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Racquet Science Club",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_19-01.svg",
-    title: "SWIMMING CLUBS",
+    title: "SWIMMING ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Aquatix",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Absolute Swimming",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Speedo Swim",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Gators Swimming",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Hamilton Aquatics",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_20-01.svg",
-    title: "SQUASH CLUBS",
+    title: "SQUASH ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Elite Squash",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Squash In Dubai",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_21-01.svg",
-    title: "Rugby CLUBS",
+    title: "Rugby ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Heart Beats Sports",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Apollio Perillini",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Dubai Knights",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Yalla Rugby",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Just Play",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_22-01.svg",
-    title: "ROLLER SKATING CLUBS",
+    title: "ROLLER SKATING ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Dubai Skate Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Skateraati",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_23-01.svg",
-    title: "Racing CLUBS",
+    title: "Racing ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Pro Drift",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Formula Gulf Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Dragonracing",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_24-01.svg",
-    title: "Parkour CLUBS",
+    title: "Parkour ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Parkour DXB",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Gravity DxB",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_26-01.svg",
-    title: "Martial Arts CLUBS",
+    title: "Martial Arts ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Tiger Kickboxing (kick boxing/Muay thai)",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Ring Side (Kick Boxing/Muay thai)",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "MMA Fitness Center (MMA)",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Budo Juko",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Golden Eagle (Kunf Fu)",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_28-01.svg",
-    title: "ice skating CLUBS",
+    title: "ice skating ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Ice Skating Evolution (Figure Skating)",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Ticki Kids",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_29-01.svg",
-    title: "Handball CLUBS",
+    title: "Handball ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Handball Club Dubai",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Dubai International Handball Club",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_3-01.svg",
-    title: "Football CLUBS",
+    title: "Football ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Star Football",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "The Football Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Spanish Soccer (Pro)",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "La Liga (Pro)",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Real Madrid Foundation Academy UAE (Pro)",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_4-01.svg",
-    title: "Fitness CLUBS",
+    title: "Fitness ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Circuit Factory",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "The Warehouse",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_5-01.svg",
-    title: "Field Hockey CLUBS",
+    title: "Field Hockey ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Field Hockey Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Dubai Shams Hockey",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Indoor (UAE FALCONS FIELD HOCKEY CLUB)",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_6-01.svg",
-    title: "Fencing CLUBS",
+    title: "Fencing ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
-      },
-      {
-        clubName: "New School Academy",
-        contact: "+971540000013",
-      },
-      {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "MK Fencing Academy",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_7-01.svg",
-    title: "Dance CLUBS",
+    title: "Dance ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Turning Pointe",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "Step Up Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Diverse performing Arts center",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "AIM Dance Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Step n Groove Dance Studio",
+        contact: "+971509139035",
+      },
+      {
+        clubName: "Arthur Murray Dance Studio",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_8-01.svg",
-    title: "Cricket CLUBS",
+    title: "Cricket ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Its Just Cricket",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "ICC Academy",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Desert Cubs",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
-      },
-      {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Young Talents Cricket Academy",
+        contact: "+971509139035",
       },
     ],
   },
 
   {
     img: "./images/activities/icon_9-01.svg",
-    title: "Climbing CLUBS",
+    title: "Climbing ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
-        contact: "+971540000012",
+        clubName: "Aventura Park",
+        contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
-        contact: "+971540000012",
+        clubName: "The Wall Dubai - Dorell Sports",
+        contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
-        contact: "+971540000013",
+        clubName: "Climbing Wall - Magic Planet",
+        contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        clubName: "Climbing Pinnacle and Wall",
+        contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        clubName: "Rock Wall Climbing - Mountain Extreme",
+        contact: "+971509139035",
+      },
+      {
+        clubName: "The Physical Training Company",
+        contact: "+971509139035",
       },
     ],
   },
   {
     img: "./images/activities/icon_25-01.svg",
-    title: "Multi Sports CLUBS",
+    title: "Multi Sports ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
         clubName: "Al Nasr",
-        contact: "+971540000012",
+        contact: "+971509139035",
       },
       {
         clubName: "Apex Academy",
-        contact: "+971540000012",
+        contact: "+971509139035",
       },
       {
         clubName: "New School Academy",
-        contact: "+971540000013",
+        contact: "+971509139035",
       },
       {
         clubName: "Paddle Dubai",
-        contact: "+971540000014",
+        contact: "+971509139035",
       },
       {
         clubName: "F.C. Barcelona",
-        contact: "+971540000015",
+        contact: "+971509139035",
       },
     ],
   },
