@@ -614,29 +614,41 @@ const data = [
     ],
   },
   {
-    img: "./images/activities/icon_25-01.svg",
-    title: "Multi Sports ACADEMIES",
+    img: "./images/activities/icons-01.svg",
+    title: "Gymnastics ACADEMIES",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
     clubData: [
       {
-        clubName: "Al Nasr",
+        clubName: "UAE Gymnastics",
         contact: "+971509139035",
       },
       {
-        clubName: "Apex Academy",
+        clubName: "Absolute Gymnastics",
         contact: "+971509139035",
       },
       {
-        clubName: "New School Academy",
+        clubName: "Star Gymnastics",
         contact: "+971509139035",
       },
       {
-        clubName: "Paddle Dubai",
+        clubName: "DoubleD",
         contact: "+971509139035",
       },
       {
-        clubName: "F.C. Barcelona",
+        clubName: "DuGym",
+        contact: "+971509139035",
+      },
+    ],
+  },
+  {
+    img: "./images/activities/E-sports.svg",
+    title: "ESports ACADEMIES",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    clubData: [
+      {
+        clubName: "Go Gamers",
         contact: "+971509139035",
       },
     ],

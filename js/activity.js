@@ -187,11 +187,13 @@ activityPane.innerHTML = `
                 <img src="./images/activities/icon_9-01.svg" alt="activities" />
               </div></a>
 
-              <a href="/activities.html#multisportsacademies">
+              <a href="/activities.html#gymnasticsacademies">
               <div class="activity">
-                <img
-                  src="./images/activities/icon_25-01.svg"
-                  alt="activities"
-                />
+                <img src="./images/activities/icons-01.svg" alt="activities" />
+              </div></a>
+
+              <a href="/activities.html#esportsacademies">
+              <div class="activity">
+                <img src="./images/activities/E-sports.svg" alt="activities"/>
               </div></a>
               `;

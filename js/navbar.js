@@ -26,7 +26,7 @@ menu.innerHTML = `<!--BEGIN NavBar -->
           <a class="nav-link" aria-current="page" href="/about.html">About Us</a>
         </li>
         <li class="nav-item text-dark">
-          <a class="nav-link" href="/partner.html">Partner With Us</a>
+          <a class="nav-link" href="#">Partner With Us</a>
         </li>
         <li class="nav-item text-dark">
           <a class="nav-link" href="/activities.html"
