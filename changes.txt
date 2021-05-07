@@ -1,0 +1,89 @@
+Home Page ===>
+On the Activities Page on the desktop version of the site, on click it should divert to whatsapp web.
+{will take mrinals help on data}
+
+
+
+
+Inner Pages ===>
+
+
+On Desktop devices, the call function is to be changed to whatsapp web (with the same number). PLEASE NOTE ONLY FOR DESKTOP.
+{call to whatApp}
+ 
+Image change for banner of activities page 
+{Inner Page - Activities - 1841204575}
+
+
+
+About us banner image to be changed
+
+IMAGE CHANGES WITH SHUTTERSTOCK ID
+
+Inner Page - About Us - Main Banner - 163632158
+Home Page (Green Slide) - On Ground (know more) - Image Attached (File Name - " 2(2) " )  {Roshni will share the file.}
+Home Page (Yellow Slide) ===> Images followd by below links
+Increased Physical... - 309067889
+Social and.... - 1238010034
+Improve Academic... -1532281841
+Learn How... - Same Image
+Build A.. - Same Image
+Sport and... - Image Attached
+Girls in... - 1236519469
+Empowering Youth... - 1345413125
+
+Home Page (Blue Slide) - Play For 60 Impact - 
+
+Dubai Sports Academies - 280211546
+Dubai Communities - 595615799
+
+
+--------------------------------------------
+
+COMPLETED ===>
+===========================================
+
+About us page Online and Onground to be in two different boxes (Online Red)
+{Card layout with left side Blue card, right side Red Card}
+
+In the activities page under the names of the academies all the lorem ipsum text is to be removed
+{mrinal will update the JSON}
+
+
+The Current Blue Slide on the Home-Page to be changed to RED color and the Current Red Slide on the Home-Page will be a Image, which will be shared shortly
+
+{change the blue bg to red && remove the bottom section.}
+
+
+Above the Footer this image has to be added as a slide - 182344922 {Roshni will share the file.}===> all below content goes into the image
+TEXT on Image - 
+LET KIDS BE KIDS AGAIN (LARGE, BOLD)
+
+We invite all parents to join us along with the dubai sports academies and register your children to Play For 60  (SMALLER) 
+(REGISTER NOW BUTTON)
+
+
+Address to be removed from contact us and footer of the website.
+{Address to be removed & Map to be removed}
+
+Whatsapp Web Pop-Up like BR website to be enabled on the homepage. (number to be used - +971507734232)
+{Floating Button }
+
+Yellow slide (benefits of sports participation) - to be changed to a carousel
+{Carousel Blogs}
+
+TEXT CHANGE FOR THE BOXES (yellow slide)
+
+ INCREASED PHYSICAL ACTIVITY AND HEALTH - Social distancing could lead to a sedentary lifestyle. Signing your children up for a physical activity will help them develop good health habits.
+ 
+ SOCIAL AND COMMUNITY BONDS HELP BUILD TEAM SPIRIT AND VICE VERSA -    Participating in sports as part of a team can give your children a chance to get to know and build stronger connections
+ 
+ IMPROVE ACADEMIC POTENTIAL -    Young people who pursue sports are more likely to have a strong self-concept and are very goal driven
+ LEARN HOW TO FACE AND OVERCOME CHALLENGES -   Youth playing sport are more likely to adapt to change, face adversity and can learn to make quick decisions as well as work as a team.
+ 
+ BUILD A FOUNDATION FOR LIFELONG DISCIPLINE AND HEALTH -    Participating in sports can help young people develop healthy habits that last a lifetime. They learn that regular practice can help them gain new skills and can bring higher levels of performance.
+ 
+ SPORT & THE SUSTAINABLE DEVELOPMENT GOALS -    Sport creates a noticeable impact and is also an important enabler of sustainable development.
+ GIRLS IN SPORT -    Starting and running a quality girls’ sport program with passion and commitment may be challenging, but will result in raising strong, powerful and successful women.
+ 
+ EMPOWERING YOUTH -    Sports are opportunities for youth to learn; they provide a “practice field" for life. Empowering youth through sport helps them to go into their communities and become ambassadors of sport and change makers.

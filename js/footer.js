@@ -1,4 +1,4 @@
-const footer = document.getElementById("footer");
+const footer = document.getElementById('footer');
 
 footer.innerHTML = `
 <footer>
@@ -12,22 +12,29 @@ footer.innerHTML = `
 
     <div class="col-md-3">
       <ul class="footer-links py-3">
-        <a href="#"><li>About Us</li></a>
-        <a href="#"><li>Activities</li></a>
-        <a href="#"><li>Challenges</li></a>
+        <a href="/about.html""><li>About Us</li></a>
+        <a href="/partner.html"><li>Partner With Us</li></a>
+        <a href="/activities.html""><li>Activities</li></a>
+        <a href="/about.html#FAQ"><li>FAQ's</li></a>
+        <a href="/gallery.html"><li>Gallery</li></a>
         <a href="#"><li>Blog</li></a>
-        <a href="#"><li>Contact Us</li></a>
-        <a href="#"><li>Store</li></a>
+        <a href="/contact.html"><li>Contact Us</li></a>      
       </ul>
     </div>
 
     <div class="col-md-3 py-3">
       <div class="footer-contact">
         <h4>Contact Us</h4>
-        <p>
+        <!-- <div>
           Fifth floor Building 6 <br />
           Dubai UAE, PO BOX 43364
-        </p>
+        </div> -->
+        <div>
+          <a href="mailto:info@beyondriyada.com">info@beyondriyada.com</a>
+        </div>
+        <div>
+          <a href="tel:+971507734232">+971 50 7734232</a>
+        </div>
       </div>
     </div>
 
@@ -87,3 +94,23 @@ footer.innerHTML = `
 <p>© <span>${new Date().getFullYear()}</span> PLAY FOR 60. All rights reserved.</p>
 </div>
 `;
+
+(function () {
+	var options = {
+		whatsapp: '+971507734232', // WhatsApp number
+		call_to_action: 'Message us', // Call to action
+		position: 'right', // Position may be 'right' or 'left'
+	};
+	var proto = document.location.protocol,
+		host = 'getbutton.io',
+		url = proto + '//static.' + host;
+	var s = document.createElement('script');
+	s.type = 'text/javascript';
+	s.async = true;
+	s.src = url + '/widget-send-button/js/init.js';
+	s.onload = function () {
+		WhWidgetSendButton.init(host, proto, options);
+	};
+	var x = document.getElementsByTagName('script')[0];
+	x.parentNode.insertBefore(s, x);
+})();

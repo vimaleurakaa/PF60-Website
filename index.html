@@ -1,740 +1,938 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Play for 60</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Play for 60 | Home</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
-      crossorigin="anonymous"
-    />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+			crossorigin="anonymous"
+		/>
 
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
 
-    <link href="./scss/main.css" rel="stylesheet" />
-  </head>
+		<link href="./css/main.css" rel="stylesheet" />
+	</head>
 
-  <body>
-    <div id="loader" class="center"></div>
-    <div id="navpanel"></div>
-    <main>
-      <!-- BEGIN Banner Sliders -->
-      <section>
-        <div
-          id="bannerCarousel"
-          class="carousel slide banner-carousel"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="./images/banner_1.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-md-block">
-                <h1>PLAY FOR 60</h1>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-                <a
-                  href="https://forms.gle/G95UqipAk1QXk8bs8"
-                  target="_blank"
-                  type="button"
-                  class="btn custom-btn rounded-pill custom-btn-size"
-                >
-                  Register Now
-                </a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/banner_2.jpg"
-                class="d-block w-100"
-                alt="banner"
-              />
-              <div class="carousel-caption d-md-block">
-                <h1>PLAY FOR 60</h1>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
-                <a
-                  href="https://forms.gle/G95UqipAk1QXk8bs8"
-                  target="_blank"
-                  type="button"
-                  class="btn custom-btn rounded-pill custom-btn-size"
-                >
-                  Register Now
-                </a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./images/banner_3.jpg"
-                class="d-block w-100"
-                alt="banner"
-              />
-              <div class="carousel-caption d-md-block">
-                <h1>PLAY FOR 60</h1>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
-                <a
-                  href="https://forms.gle/G95UqipAk1QXk8bs8"
-                  target="_blank"
-                  type="button"
-                  class="btn custom-btn rounded-pill custom-btn-size"
-                >
-                  Register Now
-                </a>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#bannerCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#bannerCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-      <!-- ENDOF Banner Sliders -->
+	<body>
+		<div id="loader" class="center"></div>
+		<div id="navpanel"></div>
+		<main>
+			<!-- BEGIN Banner Sliders -->
+			<section>
+				<div
+					id="bannerCarousel"
+					class="carousel slide banner-carousel"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="./images/banner_1.jpg"
+								class="d-block w-100"
+								alt="..."
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the third slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/gallery/Gallery-1.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/gallery/Gallery-2.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/gallery/Gallery-3.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/gallery/Gallery-4.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/gallery/Gallery-5.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/banner_2.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the second slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="./images/banner_3.jpg"
+								class="d-block w-100"
+								alt="banner"
+							/>
+							<div class="carousel-caption d-md-block">
+								<h1>PLAY FOR 60</h1>
+								<p>
+									Some representative placeholder content for the third slide.
+								</p>
+								<button
+									class="btn custom-btn rounded-pill custom-btn-size"
+									data-bs-toggle="modal"
+									data-bs-target="#registerModal"
+								>
+									Register Now
+								</button>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#bannerCarousel"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#bannerCarousel"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</section>
+			<!-- ENDOF Banner Sliders -->
 
-      <!--  Partners -->
-      <section id="sponcorsPartner" class="my-5">
-        <div class="container">
-          <h3 class="section-title mb-5">Our Sports Partner</h3>
+			<!--  Partners -->
+			<section id="sponcorsPartner" class="my-5">
+				<div class="container">
+					<h3 class="section-title mb-5">Our Activity Partners</h3>
 
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./images/Partner_1.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_2.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_3.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_4.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_5.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_6.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_7.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_8.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_9.jpg" alt="..." />
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/Partner_1.jpg" alt="..." />
-              </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-          </div>
-        </div>
-      </section>
-      <!-- END Partners -->
+					<div class="swiper-container swiper-container-brands">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./images/Partner_1.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_2.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_3.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_4.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_5.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_6.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_7.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_8.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_9.jpg" alt="..." />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/Partner_1.jpg" alt="..." />
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<!-- <div class="swiper-pagination"></div> -->
+					</div>
+				</div>
+			</section>
+			<!-- END Partners -->
 
-      <!-- BEGIN ABOUT SECTION 3  -->
-      <section class="section-3" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="ground-container">
-                <div class="ground-img">
-                  <img src="./images/kids_onground.jpg" />
-                  <p>ONGROUND</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="ground-container">
-                <div class="ground-img">
-                  <img src="./images/kids_online_grid.png" />
-                  <p>ONLINE</p>
-                </div>
-              </div>
-            </div>
-            <div class="section-3-cta">
-              <a
-                type="button"
-                class="btn custom-btn rounded-pill custom-btn-size"
-                href="./about.html"
-              >
-                ABOUT PLAY FOR 60
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ENDOF ABOUT SECTION 3  -->
+			<!-- BEGIN ABOUT SECTION 3  -->
+			<section class="section-3" id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="ground-container">
+								<div class="ground-img">
+									<img src="./images/kids_onground.jpg" />
+									<p>ONGROUND</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="ground-container">
+								<div class="ground-img">
+									<img src="./images/kids_online_grid.png" />
+									<p>ONLINE</p>
+								</div>
+							</div>
+						</div>
+						<div class="section-3-cta">
+							<a
+								type="button"
+								class="btn custom-btn rounded-pill custom-btn-size"
+								href="./about.html"
+							>
+								Know More
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ENDOF ABOUT SECTION 3  -->
 
-      <!-- BEGIN BENEFITS -->
-      <section id="benefitsContainer">
-        <div class="container">
-          <h3 class="section-title mb-5">Benefits of Sports participation</h3>
-          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 gy-4 gy-lg-5">
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Physical_Activity.jpg"
-                  class="card-img-top"
-                  alt="Physical Activity"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    INCREASED PHYSICAL ACTIVITY AND HEALTH
-                  </h5>
-                  <p class="card-text">
-                    Young people face many temptations to lead a sedentary
-                    lifestyle. Signing your children up for a physical activity
-                    will help them develop good health habits. Obesity is
-                    increasing in children, but data show that kids who are more
-                    active, especially after school, are more likely to be of
-                    normal weight.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Discipline.jpg"
-                  class="card-img-top"
-                  alt="Discipline"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    SOCIAL AND COMMUNITY BONDS HELP BUILD TEAM SPIRIT AND VICE
-                    VERSA
-                  </h5>
-                  <p class="card-text">
-                    Playing sport is a great way to make new friends.
-                    Participating on a team can give your children a chance to
-                    get to know and build stronger connections to others in
-                    their community. They can understand what it means to be a
-                    positive community contributor.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Academic.jpg"
-                  class="card-img-top"
-                  alt="Academic"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">IMPROVE ACADEMIC POTENTIAL</h5>
-                  <p class="card-text">
-                    Young people who pursue sports are more likely to have a
-                    strong self-concept and are very goal driven. Several
-                    studies have found a link between youth sports and academic
-                    success. Student athletes were far more likely to have
-                    strong educational and career goals.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Overcoming_Challenges.jpg"
-                  class="card-img-top"
-                  alt="Overcoming_Challenges"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    LEARN HOW TO FACE AND OVERCOME CHALLENGES
-                  </h5>
-                  <p class="card-text">
-                    Research shows that youth playing sport are more likely to
-                    adapt to change and can learn to make quick decisions as
-                    well as work as a team. They also seemed to have the
-                    strength to face adversity. It makes them willing to accept
-                    any short-term challenges which are positive qualities and
-                    will serve them well in future careers.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Discipline.jpg"
-                  class="card-img-top"
-                  alt="Discipline"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    BUILD A FOUNDATION FOR LIFELONG DISCIPLINE AND HEALTH
-                  </h5>
-                  <p class="card-text">
-                    Participating in sports can help young people develop
-                    healthy habits that last a lifetime. They learn that regular
-                    practice can help them gain new skills and can bring higher
-                    levels of performance. This motivation for self-improvement
-                    often persists even after they stop playing sport. Without
-                    question, regular physical activity early in life can lead
-                    to a healthier future.6.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Sports_and_Academics.jpg"
-                  class="card-img-top"
-                  alt="Sports and Academics"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    SPORT & THE SUSTAINABLE DEVELOPMENT GOALS
-                  </h5>
-                  <p class="card-text">
-                    Sport creates a noticeable impact and is also an important
-                    enabler of sustainable development. We recognize the growing
-                    contribution of sport to the realization of development and
-                    peace in its promotion of tolerance and respect and the
-                    contributions it makes to the empowerment of women and of
-                    young people, individuals and communities as well as to
-                    health, education and social inclusion objectives. (2030
-                    Agenda for Sustainable Development A/ RES/70/1, paragraph
-                    37) weight.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Girls_in_Sport.jpg"
-                  class="card-img-top"
-                  alt="Girls in Sport"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">GIRLS IN SPORT</h5>
-                  <p class="card-text">
-                    Participation in sports help women feel better about
-                    themselves, both physically and socially. It helps to build
-                    confidence and aids in maintaining a healthy weight. To make
-                    an incredible impact on girls’ development, girls’ sports
-                    should be a priority. Starting and running quality girls’
-                    sport program with passion and commitment may be
-                    challenging, but will result in raising strong, powerful and
-                    successful women.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="./images/Benefits/Health.jpg"
-                  class="card-img-top"
-                  alt="Health"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">EMPOWERING YOUTH</h5>
-                  <p class="card-text">
-                    Sports are opportunities for youth to learn; they provide a
-                    “practice field" for life. It helps develop teamwork,
-                    leadership, self-confidence, self-discipline, and coping
-                    skills. Sports also can teach youth about sportsmanlike
-                    behaviours and respect for authority. Empowering youth
-                    through sport helps them to go into their communities and
-                    become ambassadors of sport and change makers.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END BENEFITS SECTION 4  -->
-      <!-- BEGIN ACTIVITIES SECTION 5  -->
-      <section class="section-5">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <div class="title py-4">
-                <h2>Activities</h2>
-              </div>
-            </div>
-            <div id="activityPane" class="activity_container"></div>
+			<!-- BEGIN BENEFITS -->
+			<section id="benefitsContainer">
+				<div class="container">
+					<h3 class="section-title mb-5">Benefits of Sports participation</h3>
 
-            <div class="section-5-cta">
-              <a
-                href="https://forms.gle/G95UqipAk1QXk8bs8"
-                target="_blank"
-                type="button"
-                class="btn custom-btn rounded-pill custom-btn-size"
-              >
-                Register Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ENDOF ACTIVITIES SECTION 5  -->
+					<!-- Slider main container -->
+					<div class="swiper-container swiper-container-benefits">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper swiper-benefits">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Physical_Activity.jpg"
+										class="card-img-top"
+										alt="Physical Activity"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											INCREASED PHYSICAL ACTIVITY AND HEALTH
+										</h5>
+										<p class="card-text">
+											Social distancing could lead to a sedentary lifestyle.
+											Signing your children up for a physical activity will help
+											them develop good health habits.
+										</p>
+									</div>
+								</div>
+							</div>
 
-      <!-- BEGIN IMPACT SECTION 6  -->
-      <section id="impactContainer">
-        <div class="container">
-          <h3 class="section-title mb-5">PLAY FOR 60 IMPACT</h3>
-          <div
-            class="row row-cols-2 row-cols-md-3 row-cols-lg-5 gy-4 impact-wraper"
-          >
-            <div class="col">
-              <img
-                src="./images/Impact/dxb_sports.png"
-                class="card-img-top"
-                alt="DSA sports"
-              />
-              <div class="card-body">
-                <h5 class="card-title">100+</h5>
-                <p class="card-text">Dubai Sports Academies</p>
-              </div>
-            </div>
-            <div class="col">
-              <img
-                src="./images/Impact/children_indxb.png"
-                class="card-img-top"
-                alt="Children in Dubai"
-              />
-              <div class="card-body">
-                <h5 class="card-title">50,000+</h5>
-                <p class="card-text">Children in Dubai</p>
-              </div>
-            </div>
-            <div class="col">
-              <img
-                src="./images/Impact/dubai_comm.png"
-                class="card-img-top"
-                alt="Dubai Communities"
-              />
-              <div class="card-body">
-                <h5 class="card-title">8+</h5>
-                <p class="card-text">Dubai Communities</p>
-              </div>
-            </div>
-            <div class="col">
-              <img
-                src="./images/Impact/act.png"
-                class="card-img-top"
-                alt="Activities"
-              />
-              <div class="card-body">
-                <h5 class="card-title">25+</h5>
-                <p class="card-text">Activities</p>
-              </div>
-            </div>
-            <div class="col">
-              <img
-                src="./images/Impact/sdg.png"
-                class="card-img-top"
-                alt="SDG"
-              />
-              <div class="card-body">
-                <h5 class="card-title">8+</h5>
-                <p class="card-text">SDG’s</p>
-              </div>
-            </div>
-          </div>
-          <div class="sponsors-partners">
-            <h5 class="sponsor-title">Our Sponsors and Partners</h5>
-            <div
-              class="row row-cols-2 row-cols-md-3 row-cols-lg-6 sponsors-wraper"
-            >
-              <img
-                src="./images/Impact/Nakheel.jpg"
-                style="width: 120px"
-                alt="Nakheel"
-              />
-              <img
-                src="./images/Impact/Emaar.jpg"
-                style="width: 100px"
-                alt="Emaar"
-              />
-              <img src="./images/Impact/AZIZI.jpg" alt="AZIZI" />
-              <img src="./images/Impact/Meraas.jpg" alt="Meraas" />
-              <img src="./images/Impact/wasl.jpg" alt="Wasl Properties" />
-              <img src="./images/Impact/Damac.jpg" alt="Damac" />
-            </div>
-            <a href="#" class="btn rounded-pill" tabindex="-1" role="button"
-              >SHOP NOW</a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- ENDOF IMPACT SECTION 6  -->
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Social and Community Bonds.jpg"
+										class="card-img-top"
+										alt="Discipline"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											SOCIAL AND COMMUNITY BONDS HELP BUILD TEAM SPIRIT AND VICE
+											VERSA
+										</h5>
+										<p class="card-text">
+											Participating in sports as part of a team can give your
+											children a chance to get to know and build stronger
+											connections.
+										</p>
+									</div>
+								</div>
+							</div>
 
-      <!-- ENDOF  SECTION 7  -->
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Increased Physical activity and challenges.jpg"
+										class="card-img-top"
+										alt="Academic"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">IMPROVE ACADEMIC POTENTIAL</h5>
+										<p class="card-text">
+											Young people who pursue sports are more likely to have a
+											strong self-concept and are very goal driven LEARN HOW TO
+											FACE AND OVERCOME CHALLENGES - Youth playing sport are
+											more likely to adapt to change, face adversity and can
+											learn to make quick decisions as well as work as a team.
+										</p>
+									</div>
+								</div>
+							</div>
 
-      <section class="section-7">
-        <div class="container">
-          <div class="row py-5">
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img src="./images/impacts/dxb_sports.png" alt="sports" />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>passion</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/learn to overcome and face challenges.jpg"
+										class="card-img-top"
+										alt="Overcoming_Challenges"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											LEARN HOW TO FACE AND OVERCOME CHALLENGES
+										</h5>
+										<p class="card-text">
+											Research shows that youth playing sport are more likely to
+											adapt to change and can learn to make quick decisions as
+											well as work as a team. They also seemed to have the
+											strength to face adversity. It makes them willing to
+											accept any short-term challenges which are positive
+											qualities and will serve them well in future careers.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Build a Foundation for lifelong dicipline and health.jpg"
+										class="card-img-top"
+										alt="Discipline"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											BUILD A FOUNDATION FOR LIFELONG DISCIPLINE AND HEALTH
+										</h5>
+										<p class="card-text">
+											Participating in sports can help young people develop
+											healthy habits that last a lifetime. They learn that
+											regular practice can help them gain new skills and can
+											bring higher levels of performance.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Sport and Sustainable Development Goals.jpg"
+										class="card-img-top"
+										alt="Sports and Academics"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">
+											SPORT & THE SUSTAINABLE DEVELOPMENT GOALS
+										</h5>
+										<p class="card-text">
+											Sport creates a noticeable impact and is also an important
+											enabler of sustainable development. GIRLS IN SPORT -
+											Starting and running a quality girls’ sport program with
+											passion and commitment may be challenging, but will result
+											in raising strong, powerful and successful women.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="card">
+									<img
+										src="./images/Benefits/Girls in Sport.jpg"
+										class="card-img-top"
+										alt="Girls in Sport"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">GIRLS IN SPORT</h5>
+										<p class="card-text">
+											Participation in sports help women feel better about
+											themselves, both physically and socially. It helps to
+											build confidence and aids in maintaining a healthy weight.
+											To make an incredible impact on girls’ development, girls’
+											sports should be a priority. Starting and running quality
+											girls’ sport program with passion and commitment may be
+											challenging, but will result in raising strong, powerful
+											and successful women.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="card h-100">
+									<img
+										src="./images/Benefits/Empowering Youth.jpg"
+										class="card-img-top"
+										alt="Health"
+									/>
+									<div class="card-body">
+										<h5 class="card-title">EMPOWERING YOUTH</h5>
+										<p class="card-text">
+											Sports are opportunities for youth to learn; they provide
+											a “practice field" for life. Empowering youth through
+											sport helps them to go into their communities and become
+											ambassadors of sport and change makers.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+				</div>
+			</section>
+			<!-- END BENEFITS SECTION 4  -->
+			<!-- BEGIN ACTIVITIES SECTION 5  -->
+			<section class="section-5">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<div class="title py-4">
+								<h2>Activities</h2>
+							</div>
+						</div>
+						<div id="activityPane" class="activity_container"></div>
+
+						<div class="section-5-cta">
+							<button
+								class="btn custom-btn rounded-pill custom-btn-size"
+								data-bs-toggle="modal"
+								data-bs-target="#registerModal"
+							>
+								Register Now
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ENDOF ACTIVITIES SECTION 5  -->
+
+			<!-- BEGIN IMPACT SECTION 6  -->
+			<section id="impactContainer">
+				<div class="container">
+					<h3 class="section-title mb-5">PLAY FOR 60 IMPACT</h3>
+					<div
+						class="row row-cols-2 row-cols-md-3 row-cols-lg-5 gy-4 impact-wraper"
+					>
+						<div class="col">
+							<img
+								src="./images/Impact/dxb_sports.png"
+								class="card-img-top"
+								alt="DSA sports"
+							/>
+							<div class="card-body">
+								<h5 class="card-title" data-value="100">100+</h5>
+								<p class="card-text">Dubai Sports Academies</p>
+							</div>
+						</div>
+						<div class="col">
+							<img
+								src="./images/Impact/children_indxb.png"
+								class="card-img-top"
+								alt="Children in Dubai"
+							/>
+							<div class="card-body">
+								<h5 class="card-title" data-value="50000">50,000+</h5>
+								<p class="card-text">Children in Dubai</p>
+							</div>
+						</div>
+						<div class="col">
+							<img
+								src="./images/Impact/dubai_comm.png"
+								class="card-img-top"
+								alt="Dubai Communities"
+							/>
+							<div class="card-body">
+								<h5 class="card-title" data-value="8">8+</h5>
+								<p class="card-text">Dubai Communities</p>
+							</div>
+						</div>
+						<div class="col">
+							<img
+								src="./images/Impact/act.png"
+								class="card-img-top"
+								alt="Activities"
+							/>
+							<div class="card-body">
+								<h5 class="card-title" data-value="25">25+</h5>
+								<p class="card-text">Activities</p>
+							</div>
+						</div>
+						<div class="col">
+							<img
+								src="./images/Impact/sdg.png"
+								class="card-img-top"
+								alt="SDG"
+							/>
+							<div class="card-body">
+								<h5 class="card-title" data-value="8">8+</h5>
+								<p class="card-text">SDG’s</p>
+							</div>
+						</div>
+					</div>
+					<div class="sponsors-partners">
+						<h5 class="sponsor-title">Our Sponsors and Partners</h5>
+						<div
+							class="row row-cols-2 row-cols-md-3 row-cols-lg-6 sponsors-wraper"
+						>
+							<img
+								src="./images/Impact/Nakheel.jpg"
+								style="width: 120px"
+								alt="Nakheel"
+							/>
+							<img
+								src="./images/Impact/Emaar.jpg"
+								style="width: 100px"
+								alt="Emaar"
+							/>
+							<img src="./images/Impact/AZIZI.jpg" alt="AZIZI" />
+							<img src="./images/Impact/Meraas.jpg" alt="Meraas" />
+							<img src="./images/Impact/wasl.jpg" alt="Wasl Properties" />
+							<img src="./images/Impact/Damac.jpg" alt="Damac" />
+						</div>
+						<a href="#" class="btn rounded-pill" tabindex="-1" role="button"
+							>SHOP NOW</a
+						>
+					</div>
+				</div>
+			</section>
+			<!-- ENDOF IMPACT SECTION 6  -->
+
+			<!-- START  SECTION 7  -->
+
+			<!-- <section class="section-7" >
+      <div class="container">
+        <div class="row py-5"> -->
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/impacts/dxb_sports.png" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>passion</h3>
                 </div>
               </div>
-            </div>
-            <!-- Card END -->
-
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img src="./images/kids_sports/50df217ba8.jpg" alt="sports" />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>FriendShip</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
-                </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
               </div>
             </div>
-            <!-- Card END -->
+          </div> -->
+			<!-- Card END -->
 
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img src="./images/kids_sports/team.jpg" alt="sports" />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Teamwork</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/50df217ba8.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>FriendShip</h3>
                 </div>
               </div>
-            </div>
-            <!-- Card END -->
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img src="./images/kids_sports/children.jpg" alt="sports" />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Teamwork</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
-                </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
               </div>
             </div>
-            <!-- Card END -->
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img
-                    src="./images/kids_sports/Kids-now-spend-twice-as-much-time-playing-indoors-than-outdoors.jpg"
-                    alt="sports"
-                  />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Respect</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
+          </div> -->
+			<!-- Card END -->
+
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/team.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Teamwork</h3>
                 </div>
               </div>
-            </div>
-            <!-- Card END -->
-
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img src="./images/kids_sports/sportsss.jpg" alt="sports" />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Confidence</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
-                </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
               </div>
             </div>
-            <!-- Card END -->
-
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img
-                    src="./images/kids_sports/kids_sports.jpg"
-                    alt="sports"
-                  />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Acceptance</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
+          </div> -->
+			<!-- Card END -->
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/children.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Teamwork</h3>
                 </div>
               </div>
-            </div>
-            <!-- Card END -->
-
-            <!-- Card -->
-            <div class="col-md-3 p-2">
-              <div class="passion-card">
-                <div class="passion-card-cover">
-                  <img
-                    src="./images/kids_sports/School-sport.jpg"
-                    alt="sports"
-                  />
-                </div>
-                <div class="passion-card-desc">
-                  <div class="passion-card-title">
-                    <h3>Integrity</h3>
-                  </div>
-                </div>
-                <div class="passion-card-short-desc">
-                  <p>Description for this card</p>
-                </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
               </div>
             </div>
-            <!-- Card END -->
-            <div class="section-7-cta">
-              <a
-                href="https://forms.gle/G95UqipAk1QXk8bs8"
-                target="_blank"
-                type="button"
-                class="btn custom-btn rounded-pill custom-btn-size"
-              >
-                Register Now
-              </a>
+          </div> -->
+			<!-- Card END -->
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/Kids-now-spend-twice-as-much-time-playing-indoors-than-outdoors.jpg"
+                  alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Respect</h3>
+                </div>
+              </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- ENDOF  SECTION 7  -->
+          </div> -->
+			<!-- Card END -->
 
-      <!-- BEGIN  SECTION 8  -->
-      <section id="promise" class="px-3">
-        <div class="container">
-          <h3 class="section-title my-5">Let’s look ahead to...</h3>
-          <div
-            class="row row-cols-1 row-cols-md-3 row-cols-lg-4 gy-4 gy-lg-5 my-5"
-          >
-            <div class="col">
-              <p>
-                Imagine all children having access to an early positive experie
-              </p>
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/sportsss.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Confidence</h3>
+                </div>
+              </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
+              </div>
             </div>
-            <div class="col">
-              <p>
-                Most know not just the camaraderie of a team, or the feeling of
-                game-winning shot, but have developed the physical literacy,
-                including love of game, to remain active into adolescence and
-                beyond.
-              </p>
-            </div>
-            <div class="col">
-              <p>
-                They have experienced all of the benefits-physical, social,
-                emotional, congnitive-available to people who simply move their
-                bodies on a regular basis.
-              </p>
-            </div>
-            <div class="col">
-              <p>
-                Now, imagine the benefits to communities everywhere, given the
-                role of sports for kids in producing active adults and healthy
-                lives.Imagine cities hat are more vibrant and more cohesive, and
-                greener with more parks and other recreation spaces.
-              </p>
-            </div>
-          </div>
-          <h3 class="section-title mt-5 promise-text">
-            This is the promise of <span style="color: #ffc023">Playfor60.</span
-            ><br />
-            It's also imperative.YEAR 2030.
-          </h3>
-        </div>
-      </section>
-      <!-- ENDOF  SECTION 8  -->
+          </div> -->
+			<!-- Card END -->
 
-      <div id="footer"></div>
-    </main>
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/kids_sports.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Acceptance</h3>
+                </div>
+              </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
+              </div>
+            </div>
+          </div> -->
+			<!-- Card END -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./js/activity.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/navbar.js"></script>
-    <script src="./js/footer.js"></script>
-  </body>
+			<!-- Card -->
+			<!-- <div class="col-md-3 p-2">
+            <div class="passion-card">
+              <div class="passion-card-cover">
+                <img src="./images/kids_sports/School-sport.jpg" alt="sports" />
+              </div>
+              <div class="passion-card-desc">
+                <div class="passion-card-title">
+                  <h3>Integrity</h3>
+                </div>
+              </div>
+              <div class="passion-card-short-desc">
+                <p>Description for this card</p>
+              </div>
+            </div>
+          </div> -->
+			<!-- Card END -->
+			<!-- <div class="section-7-cta">
+            <a href="https://forms.gle/G95UqipAk1QXk8bs8" target="_blank" type="button"
+              class="btn custom-btn rounded-pill custom-btn-size">
+              Register Now
+            </a>
+          </div> -->
+			<!-- </div>
+      </div>
+    </section> -->
+			<!-- ENDOF  SECTION 7  -->
+
+			<!-- BEGIN  SECTION 8  -->
+			<section class="px-3 section-7">
+				<div class="container">
+					<div class="let_kid_wrapper">
+						<h1>LET KIDS BE KIDS AGAIN</h1>
+						<h3>That is the promise of Play For 60.</h3>
+						<h4>This is Imperative.</h4>
+						<div class="footer_register_button_wrapper">
+							<p>
+								We invite all parents to join us along with the dubai sports
+								academies and register your children to Play For 60
+							</p>
+							<button
+								class="btn custom-btn rounded-pill custom-btn-size"
+								data-bs-toggle="modal"
+								data-bs-target="#registerModal"
+							>
+								Register Now
+							</button>
+						</div>
+					</div>
+					<!-- <h3 class="section-title my-3">Let’s look ahead to...</h3>
+					<div
+						class="row row-cols-1 row-cols-md-3 row-cols-lg-4 gy-4 gy-lg-5 my-3"
+					>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<p class="card-text">
+										Imagine all children having access to an early positive
+										experie
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<p class="card-text">
+										Most know not just the camaraderie of a team, or the feeling
+										of game-winning shot, but have developed the physical
+										literacy, including love of game, to remain active into
+										adolescence and beyond.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<p class="card-text">
+										They have experienced all of the benefits-physical, social,
+										emotional, congnitive-available to people who simply move
+										their bodies on a regular basis.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="card h-100">
+								<div class="card-body">
+									<p class="card-text">
+										Now, imagine the benefits to communities everywhere, given
+										the role of sports for kids in producing active adults and
+										healthy lives.Imagine cities hat are more vibrant and more
+										cohesive, and greener with more parks and other recreation
+										spaces.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h3 class="section-title mt-5 promise-text">
+						This is the promise of <span style="color: #ffc023">Playfor60.</span
+						><br />
+						It's also imperative.YEAR 2030.
+					</h3> -->
+				</div>
+			</section>
+
+			<!-- ENDOF  SECTION 8  -->
+
+			<!-- Registration form popup  -->
+
+			<div
+				class="modal fade"
+				id="registerModal"
+				tabindex="-1"
+				aria-labelledby="registerModalLabel"
+				aria-hidden="true"
+			>
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="registerModalLabel">
+								Registration Form
+							</h5>
+							<button
+								type="button"
+								class="btn-close"
+								data-bs-dismiss="modal"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="modal-body" id="popupRegisterBody">
+							<form
+								action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSffr7RsuOuMY70Auob83w-HDqaecXaI0G_mVEYKuc2q76Onxw/formResponse"
+								target="registerTarget"
+								method="POST"
+								id="registerForm"
+								onsubmit="return onRegisterFormSubmit()"
+							>
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input
+										type="text"
+										class="form-control"
+										id="Name"
+										placeholder="Enter your name"
+										name="entry.2092238618"
+										required
+									/>
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input
+										type="email"
+										class="form-control"
+										id="Email"
+										placeholder="Enter your email"
+										name="entry.1556369182"
+										required
+									/>
+								</div>
+								<div class="form-group">
+									<label for="PhoneNumber">Contact Number</label>
+									<input
+										type="number"
+										class="form-control"
+										id="PhoneNumber"
+										placeholder="Enter your contact number"
+										name="entry.348935263"
+										required
+									/>
+								</div>
+								<button type="submit" class="btn submit-btn">Submit</button>
+							</form>
+						</div>
+						<iframe
+							name="registerTarget"
+							src="#registerForm"
+							height="300"
+							style="display: none"
+						></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer"></div>
+		</main>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="./js/register-form.js"></script>
+		<script src="./js/activity.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="./js/navbar.js"></script>
+		<script src="./js/footer.js"></script>
+	</body>
 </html>

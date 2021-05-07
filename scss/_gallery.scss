@@ -1,0 +1,22 @@
+.lightbox-gallery {
+  overflow: hidden;
+  & > * {
+    margin-bottom: 1.5rem;
+  }
+
+  & .lightbox-img {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      width: 100%;
+      transition: all 0.2s ease-in-out;
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.08);
+      }
+    }
+  }
+}

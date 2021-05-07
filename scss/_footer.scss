@@ -27,6 +27,11 @@ footer {
 
   .footer-contact {
     text-align: left;
+
+    & a {
+      text-decoration: none;
+      color: $primary-color;
+    }
   }
 
   .footer-social {
